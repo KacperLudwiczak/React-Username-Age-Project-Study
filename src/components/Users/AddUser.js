@@ -2,6 +2,7 @@ import Card from "../UI/Card";
 import classes from "./AddUser.module.css";
 import Button from "../UI/Button";
 import { useState } from "react";
+import UsersList from "./UsersList";
 
 const AddUser = (props) => {
   const [enteredUsername, setEnteredUsername] = useState("");
